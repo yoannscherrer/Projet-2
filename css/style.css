@@ -3,15 +3,31 @@
     font-family: 'Raleway', sans-serif;
 }
 
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
 
-#logo {
-    width: 61.09px;
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+}
+
+.logo {
+    width: 61.09px; 
     height: 19px;
+}
+
+.menu {
+    gap: 68px;
 }
 
 .fa-solid {
