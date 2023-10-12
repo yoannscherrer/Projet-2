@@ -9,6 +9,11 @@
     --filter-bg-color: #DEEBFF;
 }
 
+#logo {
+    width: 61.09px;
+    height: 19px;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
