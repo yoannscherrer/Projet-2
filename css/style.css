@@ -47,17 +47,54 @@ body {
 }
 
 #hebergements {
+    position: relative;
     width: 113px;
     height: 35px;
     font-size: 16px;
-    margin-right: 68px;
-    
+    margin-right: 68px;  
 }
 
 #activites {
+    position: relative;
     width: 63px;
     height: 35px;
     font-size: 16px;
+}
+
+#hebergements::after{
+    content: "";
+    position: absolute;
+    background-color: #0065FC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 24px;
+}
+
+#hebergements:hover{
+    color: #0065FC;
+}
+
+#hebergements:hover::after{
+    width: 100%;
+}
+
+#activites::after{
+    content: "";
+    position: absolute;
+    background-color: #0065FC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 24px;
+}
+
+#activites:hover{
+    color: #0065FC;
+}
+
+#activites:hover::after{
+    width: 100%;
 }
 
 a {
