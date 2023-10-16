@@ -15,23 +15,6 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.header_box {
-    display: flex;
-    justify-content: space-between;
-    height: 79px;
-    width: 1440px;
-}
-
-.logo {
-    width: 61.09px; 
-    height: 19px;
-    margin-top: 30px;
-}
-
-.menu {
-    margin-top: 16px;
-    gap: 68px;
-}
 
 .fa-solid {
     color: var(--main-color);
@@ -47,6 +30,34 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 79px;
+    left: 1107.09px;
+}
+
+.logo {
+    width: 61.09px; 
+    height: 19px;
+    margin-top: 20px;
+}
+
+#hebergements {
+    width: 113px;
+    height: 35px;
+    font-size: 16px;
+    margin-right: 68px;
+    
+}
+
+#activites {
+    width: 63px;
+    height: 35px;
+    font-size: 16px;
 }
 
 a {
