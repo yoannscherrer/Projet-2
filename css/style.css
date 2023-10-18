@@ -128,7 +128,11 @@ body {
     font-weight: bold;
     border-width: 0;
     text-align: center;
-    background-color: white
+    background-color: white;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: #F2F2F2;
 }
 
 #search-button {
@@ -148,6 +152,154 @@ body {
 
 #search-button i {
     display: none;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 35px;
+}
+
+.group1 {
+    display: flex;
+    gap: 15px;
+}
+
+.group2 {
+    display: flex;
+    gap: 15px;
+}
+
+#economique:hover {
+    background-color: #DEEBFF;
+}
+
+#familial:hover {
+    background-color: #DEEBFF;
+}
+
+#romantique:hover {
+    background-color: #DEEBFF;
+}
+
+#pepites:hover {
+    background-color: #DEEBFF;
+}
+
+#economique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 173px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#economique i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#familial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 134px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#familial i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#romantique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 170px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#romantique i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#pepites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 167px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#pepites i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-radius: 50%;
 }
 
 a {
