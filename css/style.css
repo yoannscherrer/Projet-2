@@ -374,7 +374,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
-    width: 240px;
+    width: 33%;
     height: 205px;
 }
 
@@ -388,27 +388,29 @@ a {
 .hebergements-cards .card-content {
     width: 100%;
     padding-left: 15px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
 }
 
-/*.hebergements-cards .card-txt {
-    
-}
-
 .hebergements-cards .card-title {
-
+    margin: 0;
+    margin-top: 8px;
+    font-size: 16px;
 }
 
 .hebergements-cards .card-subtitle {
-
+    margin: 0;
+    margin-top: 8px;
+    font-size: 14px;
 }
 
 .hebergements-cards .card-rating {
-    
-}*/
+    margin: 0;
+    margin-top: 8px;
+}
 
 #lien-hebergements {
     font-size: 18px;
@@ -484,7 +486,7 @@ a {
 
 .activites .card {
     height: 439px;
-    width: 297.5px;
+    width: 23%;
     padding: 0;
 }
 
