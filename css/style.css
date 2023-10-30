@@ -162,6 +162,11 @@ body {
     height: 50px;
 }
 
+.group {
+    display: flex;
+    gap: 15px;
+}
+
 .group1 {
     display: flex;
     gap: 15px;
@@ -368,12 +373,6 @@ a {
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
-}
-
-.hebergements-cards .ligne2 {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
 }
 
 .hebergements-cards .card {
@@ -589,6 +588,44 @@ footer .assistance{
         min-height: 270px;
         width: 23%;
         padding: 0;
+    }
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    .filters p {
+        margin-bottom: 0;
+    }
+    
+    #economique {
+        font-size: 16px;
+        height: 50px;
+    }
+    
+    #familial {
+        font-size: 16px;
+    }
+    
+    #romantique {
+        font-size: 16px;
+    }
+    
+    #pepites {
+        font-size: 16px;
+    }
+    
+    .info {
+        margin-top: 105px;
+    }
+
+    .formulaire form {
+        margin-bottom: 25px;
     }
 }
 
