@@ -651,5 +651,30 @@ footer .assistance{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
+    #search-button {
+        position: absolute;
+        left: 331px;
+        width: 49px;
+        height: 49px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px #00000040;
+    }
+
+    #search-button i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+    }
+
+    #text-button {
+        display: none;
+    }
+
+    #site-search {
+        width: 236px;
+    }
 }
