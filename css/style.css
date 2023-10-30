@@ -15,6 +15,8 @@
     --filter-bg-color: #DEEBFF;
 }
 
+
+
 .header_box {
     display: flex;
     justify-content: space-between;
@@ -33,6 +35,7 @@
     gap: 68px;
 }
 
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -47,6 +50,283 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 79px;
+    left: 1107.09px;
+}
+
+.logo {
+    width: 61.09px; 
+    height: 19px;
+    margin-top: 20px;
+}
+
+#hebergements {
+    position: relative;
+    width: 113px;
+    height: 35px;
+    font-size: 16px;
+    margin-right: 68px;  
+}
+
+#activites {
+    position: relative;
+    width: 63px;
+    height: 35px;
+    font-size: 16px;
+}
+
+#hebergements::after {
+    content: "";
+    position: absolute;
+    background-color: #0065FC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 24px;
+}
+
+#hebergements:hover {
+    color: #0065FC;
+}
+
+#hebergements:hover::after {
+    width: 100%;
+}
+
+#activites::after {
+    content: "";
+    position: absolute;
+    background-color: #0065FC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 24px;
+}
+
+#activites:hover {
+    color: #0065FC;
+}
+
+#activites:hover::after {
+    width: 100%;
+}
+
+#entete {
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.formulaire form {
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.formulaire i {
+    color: black;
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#site-search {
+    width: 195px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: #F2F2F2;
+}
+
+#search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0;
+    width: 132px;
+    height: 49px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#search-button i {
+    display: none;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+}
+
+.group1 {
+    display: flex;
+    gap: 15px;
+}
+
+.group2 {
+    display: flex;
+    gap: 15px;
+}
+
+#economique:hover {
+    background-color: #DEEBFF;
+}
+
+#familial:hover {
+    background-color: #DEEBFF;
+}
+
+#romantique:hover {
+    background-color: #DEEBFF;
+}
+
+#pepites:hover {
+    background-color: #DEEBFF;
+}
+
+#economique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 173px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#economique i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#familial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 134px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#familial i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#romantique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 170px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#romantique i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+#pepites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 10px;
+    background-color: white;
+    width: 167px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+#pepites i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    gap: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-radius: 50%;
 }
 
 a {
@@ -86,6 +366,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -98,6 +379,68 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-cards {
+    max-height: 525px;
+}
+
+.hebergements-cards .ligne {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 30%;
+    min-height: 205px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    width: 100%;
+    padding-left: 15px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.hebergements-cards .card-rating {
+    margin: 0;
+    margin-top: 8px;
+}
+
+#lien-hebergements {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 /****** Populaires ***********/
@@ -145,7 +488,77 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
 
+#section-title {
+    padding: 30px;
+    font-size: 22px;
+}
+
+.activites {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites .card {
+    min-height: 439px;
+    width: 23%;
+    padding: 0;
+}
+
+.activites .card-title {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/****** Footer ******/
+
+footer {
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    display: flex;
+    height: 163px;
+}
+
+footer h3{
+    font-size: 18px;
+    margin: 0;
+}
+
+footer .a-propos{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+footer .hebergements-footer{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+footer .assistance{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-top: 20px;
+    gap: 15px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -182,6 +595,57 @@ a {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites img {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .activites .card {
+        min-height: 270px;
+        width: 23%;
+        padding: 0;
+    }
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        height: 50px;
+    }
+
+    .filters p {
+        margin-bottom: 0;
+    }
+    
+    #economique {
+        font-size: 16px;
+        height: 50px;
+    }
+    
+    #familial {
+        font-size: 16px;
+    }
+    
+    #romantique {
+        font-size: 16px;
+    }
+    
+    #pepites {
+        font-size: 16px;
+    }
+    
+    .info {
+        margin-top: 105px;
+    }
+
+    .formulaire form {
+        margin-bottom: 25px;
     }
 }
 
