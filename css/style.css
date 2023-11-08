@@ -158,6 +158,11 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+mark {
+    background-color: #0065FC;
+    color: white;
+}
+
 #search-button i {
     display: none;
 }
@@ -772,7 +777,7 @@ footer .assistance{
         border-radius: 15px;
     }
 
-    #text-button {
+    mark {
         display: none;
     }
 
