@@ -54,6 +54,21 @@ body {
     box-sizing: border-box;
 }
 
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 79px;
+    left: 1107.09px;
+}
+
+.logo {
+    width: 61.09px; 
+    height: 19px;
+    margin-top: 20px;
+}
+
 #hebergements {
     position: relative;
     width: 113px;
@@ -648,7 +663,7 @@ footer .assistance{
     .formulaire form {
         margin-bottom: 25px;
     }
-
+  
     .activities-text {
         margin-top: 5px;
     }
@@ -757,6 +772,12 @@ footer .assistance{
     #search-button {
         position: absolute;
         left: 301px;
+
+    
+    #search-button {
+        position: absolute;
+        left: 331px;
+
         width: 49px;
         height: 49px;
         border-radius: 15px;
