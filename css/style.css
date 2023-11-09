@@ -774,15 +774,14 @@ footer .assistance{
         margin-top: 8px;
     }
     
-    #search-button {
+    /*#search-button {
         position: absolute;
         left: 301px;
-
+    }*/
     
     #search-button {
         position: absolute;
-        left: 331px;
-
+        left: 301px;
         width: 49px;
         height: 49px;
         border-radius: 15px;
