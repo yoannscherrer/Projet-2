@@ -187,7 +187,7 @@ mark {
     background-position: left;
 }
 
-.filters {
+.filters-block {
     display: flex;
     gap: 15px;
     font-size: 18px;
@@ -210,23 +210,11 @@ mark {
     gap: 15px;
 }
 
-#economique:hover {
+.filters:hover {
     background-color: #DEEBFF;
 }
 
-#familial:hover {
-    background-color: #DEEBFF;
-}
-
-#romantique:hover {
-    background-color: #DEEBFF;
-}
-
-#pepites:hover {
-    background-color: #DEEBFF;
-}
-
-#economique {
+.filters {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,79 +229,7 @@ mark {
     border-style: solid;
 }
 
-#economique i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 22px;
-    width: 22px;
-    padding: 0;
-}
-
-#familial {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: bold;
-    gap: 10px;
-    background-color: white;
-    width: 134px;
-    border-radius: 25px;
-    border-width: 2px;
-    border-color: #D9D9D9;
-    border-style: solid;
-}
-
-#familial i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 22px;
-    width: 22px;
-    padding: 0;
-}
-
-#romantique {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: bold;
-    gap: 10px;
-    background-color: white;
-    width: 170px;
-    border-radius: 25px;
-    border-width: 2px;
-    border-color: #D9D9D9;
-    border-style: solid;
-}
-
-#romantique i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 22px;
-    width: 22px;
-    padding: 0;
-}
-
-#pepites {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: bold;
-    gap: 10px;
-    background-color: white;
-    width: 167px;
-    border-radius: 25px;
-    border-width: 2px;
-    border-color: #D9D9D9;
-    border-style: solid;
-}
-
-#pepites i {
+.filters i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,6 +253,7 @@ mark {
     align-items: center;
     height: 24px;
     width: 24px;
+    border-width: 1px;
     border-style: solid;
     border-color: #D9D9D9;
     border-radius: 50%;
@@ -376,13 +293,13 @@ a {
 }
 
 /****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+#hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
 }
 
-.hebergements-and-populaires section {
+#hebergements-and-populaires section {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -587,7 +504,7 @@ footer .assistance{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-populaires {
+    #hebergements-and-populaires {
         flex-direction: column;
     }
 
@@ -631,7 +548,7 @@ footer .assistance{
         padding: 0;
     }
 
-    .filters {
+    .filters-block {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -640,25 +557,13 @@ footer .assistance{
         height: 50px;
     }
 
-    .filters p {
+    .filters-block p {
         margin-bottom: 0;
     }
     
-    #economique {
+    .filters {
         font-size: 16px;
         height: 50px;
-    }
-    
-    #familial {
-        font-size: 16px;
-    }
-    
-    #romantique {
-        font-size: 16px;
-    }
-    
-    #pepites {
-        font-size: 16px;
     }
     
     .info {
@@ -801,36 +706,25 @@ footer .assistance{
     }
 
     #filter-text {
-        padding-left: 0;
+        padding-left: 20px;
     }
 
     .group {
         display: flex;
         flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .group2 {
         height: 50px;
     }
 
-    #economique {
+    .filters {
         font-size: 14px;
         width: 162.5px;
-    }
-
-    #familial {
-        font-size: 14px;
-        width: 162.5px;
-    }
-
-    #romantique {
-        font-size: 14px;
-        width: 162.5px;
-    }
-
-    #pepites {
-        font-size: 14px;
-        width: 162.5px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .info {
@@ -842,11 +736,11 @@ footer .assistance{
         padding: 0;
     }
 
-    .hebergements-and-populaires {
+    #hebergements-and-populaires {
         flex-direction: column-reverse;
     }
 
-    .hebergements-and-populaires section {
+    #hebergements-and-populaires section {
         border-radius: unset;
     }
 
