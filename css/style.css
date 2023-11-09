@@ -173,6 +173,11 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+mark {
+    background-color: #0065FC;
+    color: white;
+}
+
 #search-button i {
     display: none;
 }
@@ -772,12 +777,6 @@ footer .assistance{
     #search-button {
         position: absolute;
         left: 301px;
-
-    
-    #search-button {
-        position: absolute;
-        left: 331px;
-
         width: 49px;
         height: 49px;
         border-radius: 15px;
@@ -793,7 +792,7 @@ footer .assistance{
         border-radius: 15px;
     }
 
-    #text-button {
+    mark {
         display: none;
     }
 
